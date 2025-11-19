@@ -1,9 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Editor from './components/Editor'
 import Preview from './components/Preview'
 import TemplateSelector from './components/TemplateSelector'
 import ColorPicker from './components/ColorPicker'
 import { exportToPdf } from './utils/exportPdf'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsConditions from './pages/TermsConditions'
+import AboutUs from './pages/AboutUs'
+import Contact from './pages/Contact'
+import HowToCreateResume from './pages/HowToCreateResume'
 
 const STORAGE_KEY = 'resume-data-v2'
 

@@ -80,7 +80,6 @@ body {
 .top-actions {
   display: flex;
   gap: 8px;
-  flex-wrap: wrap;
 }
 
 /* ===== Buttons ===== */
@@ -969,4 +968,31 @@ button, .import-btn {
   .side {
     width: 100% !important;
   }
+}
+
+/* ===== Page Styles ===== */
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.page-container h1 {
+  color: #0b6efd;
+  margin-bottom: 1rem;
+}
+
+.page-container h2 {
+  color: #374151;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page-container ul {
+  margin-left: 1.5rem;
+}
+
+.page-container li {
+  margin-bottom: 0.5rem;
 }
